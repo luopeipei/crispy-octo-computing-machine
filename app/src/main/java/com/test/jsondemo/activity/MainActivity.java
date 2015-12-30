@@ -30,6 +30,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         sendRequest.setOnClickListener(this);
         con.setOnClickListener(this);
+        Log.i("lpp","onCreate");
     }
     @Override
     public void onClick(View v) {
