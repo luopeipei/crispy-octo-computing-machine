@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/createDatabase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="createDatabse"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/updateDatabase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="updateDatabase"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="insert"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/query"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="query"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/replace_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="replace"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
